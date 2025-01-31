@@ -5,6 +5,7 @@ This is a multi-picker package that includes several different modes, making it 
 ## Donation Message for Support
 
 ### Quick Links for Donations:
+![icon-128x128](https://github.com/user-attachments/assets/b9ebe656-0984-430c-aab6-6e2ca93cd300)
 - [Donate via Zarinpal](https://zarinp.al/swanflutterdevpackage) 
 - [Support through our Website](https://swanflutterdev.com/pay.html) 
 
