@@ -1,0 +1,31 @@
+name: custom_pickers
+description: "This is a multi-picker package that includes several different modes, making it easy to use."
+version: 0.0.1
+homepage: ""
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  photo_manager_image_provider: ^2.2.0
+  photo_manager: ^3.6.4
+  loading_animation_widget: ^1.2.1
+  image_picker: ^1.1.2
+  flutter_saver: ^0.0.3
+  iconsax: ^0.0.8
+  camerawesome: ^2.1.0
+  
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+
+
