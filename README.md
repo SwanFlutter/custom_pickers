@@ -2,8 +2,8 @@
 
 This is a multi-picker package that includes several different modes, making it easy to use.
 
-[Surprise me!.] (https://zarinp.al/swanflutterdevpackage)
-[Surprise me!.] (https://swanflutterdev.com/pay.html)
+[Surprise me!](https://zarinp.al/swanflutterdevpackage)
+[Surprise me!](https://swanflutterdev.com/pay.html)
 
 
 
