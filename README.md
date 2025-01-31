@@ -2,8 +2,13 @@
 
 This is a multi-picker package that includes several different modes, making it easy to use.
 
-[Surprise me!](https://zarinp.al/swanflutterdevpackage) </br>
-[Surprise me!](https://swanflutterdev.com/pay.html)
+## Donation Message for Support
+
+### Quick Links for Donations:
+- [Donate via Zarinpal](https://zarinp.al/swanflutterdevpackage) 
+- [Support through our Website](https://swanflutterdev.com/pay.html) 
+
+
 
 
 
