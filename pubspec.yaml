@@ -1,7 +1,7 @@
 name: custom_pickers
 description: "This is a multi-picker package that includes several different modes, making it easy to use."
 version: 0.0.1
-homepage: ""
+homepage: "https://github.com/YourUsername/custom_pickers"
 
 environment:
   sdk: '>=2.19.0 <4.0.0'
@@ -17,6 +17,7 @@ dependencies:
   flutter_saver: ^0.0.3
   iconsax: ^0.0.8
   camerawesome: ^2.1.0
+  path: ^1.9.0
   
   
 dev_dependencies:
