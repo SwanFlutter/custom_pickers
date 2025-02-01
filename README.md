@@ -5,6 +5,7 @@ This is a multi-picker package that includes several different modes, making it 
 ## Donation Message for Support
 
 ### Quick Links for Donations:
+
 ![icon-128x128](https://github.com/user-attachments/assets/b9ebe656-0984-430c-aab6-6e2ca93cd300)
 
 - <a href="https://zarinp.al/swanflutterdevpackage" target="_blank">Donate via Zarinpal</a>
@@ -27,18 +28,22 @@ This is a multi-picker package that includes several different modes, making it 
 ## Getting started
 
 ```yaml
+
 import 'package:custom_pickers/custom_pickers.dart';
+
 ```
 
 ```yaml
+
   dependencies:
-  custom_pickers:
-      path: your package directory
+  custom_pickers: ^0.0.1
+      
        
 ```
 
 for example 
 ```yaml
+
   dependencies:
   custom_pickers:
       path: G:\Android\Pakege\custom_pickers
