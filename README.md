@@ -43,9 +43,12 @@ for example
 
 
 
-- use customPicker
+# use customPicker
 
 ## instagram pickers
+
+![picker8](https://github.com/user-attachments/assets/6d082831-31be-4b2a-b9d0-a6b679bad723)
+
 
 ```dart
  List<AssetEntity> selectedAssetList = [];
@@ -83,6 +86,9 @@ for example
 
 ## CustomPicker
 
+![picker1](https://github.com/user-attachments/assets/7c49d876-6890-4571-b2be-a19fad99936e)
+
+
 ```dart
 ElevatedButton(
             onPressed: () {
@@ -99,6 +105,10 @@ ElevatedButton(
 
 
 ## BottomSheets
+
+![picker3](https://github.com/user-attachments/assets/6833ff88-69a1-4d5b-aa28-45368ae147bd)
+![picker2](https://github.com/user-attachments/assets/a5b5f91b-9871-4ef0-90e9-6403f049cf35)
+
 
 ```dart
 ElevatedButton(
@@ -122,6 +132,10 @@ ElevatedButton(
 ```
 
 ## TelegramMediaPickers
+
+![telegram1](https://github.com/user-attachments/assets/532a963d-bbd1-4b3c-ab92-0189a6107e53)
+![picer7](https://github.com/user-attachments/assets/426e7fda-e176-43e7-9c68-1412651e5935)
+
 
 - Step 1: Create a GlobalKey
  Start by creating a GlobalKey to manage the state of the TelegramMediaPickers widget.
@@ -259,6 +273,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ## scaffoldBottomSheet
 
+
+![picker4](https://github.com/user-attachments/assets/d5469b1e-5e80-4b86-971c-3ce906274e40)
+
+
 ```dart
 elevatedButton(
  onPressed: () async {
@@ -281,6 +299,38 @@ elevatedButton(
  child: const Text("scaffoldBottomSheet"),
  ),
 ```
+
+## BottomSheetImageSelector
+
+![picker5](https://github.com/user-attachments/assets/67108a67-7b6a-45e3-9f66-1910569005b8)![picker6](https://github.com/user-attachments/assets/e67cd19e-adda-4766-a932-910dbd7956a3)
+
+```dart
+
+elevatedButton(
+ onPressed: () async {
+ await CustomPickers.bottomSheetImageSelector(
+ cameraImageSettings: CameraImageSettings(),
+ context: context,
+ maxCount: 5,
+ requestType: MyRequestType.image,
+ confirmText: "Confirm",
+ textEmptyList: "No album found",
+ confirmButtonColor: Colors.blue,
+ confirmTextColor: Colors.black,
+ backgroundColor: Colors.white,
+ textEmptyListColor: Colors.grey,
+ backgroundSnackBarColor: Colors.red,
+ ).then((value) {
+ selectedAssetList = value;
+ convertToFileList();
+ });
+ },
+ child: const Text("bottomSheetImageSelector"),
+ ),
+
+
+```
+
 
 
 ## Additional information
