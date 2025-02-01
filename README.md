@@ -47,7 +47,10 @@ for example
 
 ## instagram pickers
 
-![picker8](https://github.com/user-attachments/assets/6d082831-31be-4b2a-b9d0-a6b679bad723)
+## instagram pickers
+
+<img src="https://github.com/user-attachments/assets/6d082831-31be-4b2a-b9d0-a6b679bad723" width="300"/>
+
 
 
 ```dart
