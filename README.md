@@ -1,9 +1,16 @@
-
+# custom Picker
 
 This is a multi-picker package that includes several different modes, making it easy to use.
 
-[Surprise me!.] (https://zarinp.al/swanflutterdevpackage)
-[Surprise me!.] (https://swanflutterdev.com/pay.html)
+## Donation Message for Support
+
+### Quick Links for Donations:
+![icon-128x128](https://github.com/user-attachments/assets/b9ebe656-0984-430c-aab6-6e2ca93cd300)
+
+- <a href="https://zarinp.al/swanflutterdevpackage" target="_blank">Donate via Zarinpal</a>
+- <a href="https://swanflutterdev.com/pay.html" target="_blank">Support through our Website</a>
+
+
 
 
 
@@ -42,11 +49,10 @@ for example
 
 
 
-- use customPicker
+# use customPicker
+
 
 ## instagram pickers
-
-
 
 ```dart
  List<AssetEntity> selectedAssetList = [];
@@ -84,6 +90,10 @@ for example
 
 ## CustomPicker
 
+
+<img src="https://github.com/user-attachments/assets/7c49d876-6890-4571-b2be-a19fad99936e" width="300"/>
+
+
 ```dart
 ElevatedButton(
             onPressed: () {
@@ -100,6 +110,10 @@ ElevatedButton(
 
 
 ## BottomSheets
+
+<img src="https://github.com/user-attachments/assets/6833ff88-69a1-4d5b-aa28-45368ae147bd" width="300"/>
+<img src="https://github.com/user-attachments/assets/a5b5f91b-9871-4ef0-90e9-6403f049cf35" width="300"/>
+
 
 ```dart
 ElevatedButton(
@@ -123,6 +137,9 @@ ElevatedButton(
 ```
 
 ## TelegramMediaPickers
+
+<img src="https://github.com/user-attachments/assets/532a963d-bbd1-4b3c-ab92-0189a6107e53" width="300"/>
+<img src="https://github.com/user-attachments/assets/426e7fda-e176-43e7-9c68-1412651e5935" width="300"/>
 
 - Step 1: Create a GlobalKey
  Start by creating a GlobalKey to manage the state of the TelegramMediaPickers widget.
@@ -260,6 +277,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ## scaffoldBottomSheet
 
+
+<img src="https://github.com/user-attachments/assets/d5469b1e-5e80-4b86-971c-3ce906274e40" width="300"/>
+
+
+
 ```dart
 elevatedButton(
  onPressed: () async {
@@ -282,6 +304,40 @@ elevatedButton(
  child: const Text("scaffoldBottomSheet"),
  ),
 ```
+
+## BottomSheetImageSelector
+
+
+<img src="https://github.com/user-attachments/assets/67108a67-7b6a-45e3-9f66-1910569005b8" width="300"/>  <img src="https://github.com/user-attachments/assets/e67cd19e-adda-4766-a932-910dbd7956a3" width="300"/>
+
+
+```dart
+
+elevatedButton(
+ onPressed: () async {
+ await CustomPickers.bottomSheetImageSelector(
+ cameraImageSettings: CameraImageSettings(),
+ context: context,
+ maxCount: 5,
+ requestType: MyRequestType.image,
+ confirmText: "Confirm",
+ textEmptyList: "No album found",
+ confirmButtonColor: Colors.blue,
+ confirmTextColor: Colors.black,
+ backgroundColor: Colors.white,
+ textEmptyListColor: Colors.grey,
+ backgroundSnackBarColor: Colors.red,
+ ).then((value) {
+ selectedAssetList = value;
+ convertToFileList();
+ });
+ },
+ child: const Text("bottomSheetImageSelector"),
+ ),
+
+
+```
+
 
 
 ## Additional information
