@@ -9,7 +9,13 @@ This is a multi-picker package that includes several different modes, making it 
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Easy integration.
+- Customizable components.
+- Performance optimized.
+- Extensive documentation.
+- Picker Ui Instagram.
+- This is a multi-picker.
+
 
 ## Getting started
 
@@ -39,6 +45,8 @@ for example
 - use customPicker
 
 ## instagram pickers
+
+
 
 ```dart
  List<AssetEntity> selectedAssetList = [];
